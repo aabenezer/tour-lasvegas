@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+}
+
+.hotels,
+.restaurants,
+.aboutVegas,
+.contact,
+.signin {
+text-decoration: none;
+color: white;
+font-size: 15px;
+padding: 10px 10px;
+margin: 0 10px;
+
+}
+.signin {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.logo-image{
+    height: 80px;
+    width: 80px;
+    margin: 10px 20px ;
+}
+
+.logo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
