@@ -13,7 +13,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-
       <Routes>
         <Route path='/' exact element={<Home />} />
         <Route path='/HotelsCasinos' element={<HotelsCasinos />} />
@@ -21,7 +20,6 @@ function App() {
         <Route path='/AboutVegas' element={<AboutVegas />} />
         <Route path='/ContactUs' element={<ContactUs />} />
       </Routes>
-
       <Footer />
     </div>
   );

@@ -1,25 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css'
-import abc from '../../assets/img/vegas logo white.png'
-
-
-
-
-
-
-
+import './Header.css';
+import abc from '../../assets/img/vegas logo white.png';
+import 'font-awesome/css/font-awesome.css';
 
 const Header = () => {
-    return (
-        <nav className='navbar'>
-            <Link to='/'>
+    const [showMenu, setShowMenu] = useState(false);
 
+    const toggleMenu = () => {
+        setShowMenu(!showMenu);
+    };
+
+    return (
+        <nav className={`navbar ${showMenu ? 'show' : ''}`}>
+            <Link to='/'>
                 <img src={abc} alt='nucamp logo' className='logo-image img-fluid' />
             </Link>
-            <h3 className='logo'>Tour Las Vergas</h3>
-            <ul className='nav-links'>
+            <h3 className='logo'>Tour Las Vegas</h3>
 
+            <div className="menu-icon" onClick={toggleMenu}>
+                <i className={`fa ${showMenu ? 'fa-times' : 'fa-bars'} fa-lg`} />
+            </div>
+
+            <ul className={`menu-items ${showMenu ? 'show' : ''}`}>
                 <Link className='hotels' to='HotelsCasinos'>
                     <i className='fa fa-bath fa-md' />&nbsp; &nbsp;
                     Hotels & Casinos
@@ -41,13 +44,8 @@ const Header = () => {
                     Sign In
                 </Link>
             </ul>
-        </nav >
-    )
-}
-
-
-
-
-
+        </nav>
+    );
+};
 
 export default Header;
