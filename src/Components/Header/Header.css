@@ -32,7 +32,6 @@
     font-size: 15px;
     padding: 10px 10px;
     margin: 0 5px;
-
 }
 
 .signin {
@@ -49,7 +48,6 @@
     height: 80px;
     width: 80px;
     margin: 10px 30px;
-
 }
 
 .logo {
@@ -84,33 +82,28 @@
         left: 0;
         right: 0;
         padding-bottom: 20px;
-
     }
 
     .menu-items.show {
         display: flex;
-    }
-
-    .logo {
-
-        font-size: 25px;
-    }
-
-    .logo-image {
-        height: 50px;
-        width: 50px;
-        margin: 10px 30px;
-
     }
 }
 
 @media (max-width: 400px) {
     .logo {
         display: none;
-
     }
 
+    .logo-image {
+        height: 60px;
+        width: 60px;
+        margin: 10px 30px;
+    }
 
-
+    .logo {
+        font-family: 'Yesteryear', cursive;
+        margin-right: auto;
+        font-size: 25px;
+    }
 
 }
