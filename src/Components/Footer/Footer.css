@@ -7,9 +7,9 @@
 .footer {
     background-color: rgb(28, 28, 28);
     padding: 20px 30px;
-    position: fixed;
+    /* position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 0; */
     width: 100%;
 
 }

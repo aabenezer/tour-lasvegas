@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <nav className={`navbar ${showMenu ? 'show' : ''}`}>
             <Link to='/'>
-                <img src={logo} alt='nucamp logo' className='logo-image img-fluid' />
+                <img src={logo} alt='tour-lasvegas-logo' className='logo-image img-fluid' />
             </Link>
             <h3 className='logo'>Tour Las Vegas</h3>
 

@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 import AboutVegas from './pages/AboutVegas';
 import BestRestaurants from './pages/BestRestaurants';
 import HotelsCasinos from './pages/HotelsCasinos';
