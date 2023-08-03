@@ -19,22 +19,22 @@ const Footer = () => {
                     <hr className='small' />
 
                     <div className='footer-links'>
-                        <h4>Pages</h4>
+                        <h4></h4>
                         <ul className='footer-links-list' >
                             <Link className='hotels' to='HotelsCasinos'>
-                                <i className='fa fa-bath fa-md' />&nbsp; &nbsp;
+
                                 Hotels & Casinos
                             </Link>
                             <Link className='restaurants' to='BestRestaurants'>
-                                <i className='fa fa-cutlery fa-md' />&nbsp; &nbsp;
+
                                 Best Restaurants
                             </Link>
                             <Link className='aboutVegas' to='AboutVegas'>
-                                <i className='fa fa-flag fa-md' />&nbsp; &nbsp;
+
                                 About Vegas
                             </Link>
                             <Link className='contact' to='ContactUs'>
-                                <i className='fa fa-paper-plane fa-md' />&nbsp; &nbsp;
+
                                 Contact Us
                             </Link>
                         </ul>

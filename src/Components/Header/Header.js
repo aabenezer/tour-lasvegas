@@ -29,7 +29,7 @@ const Header = () => {
                     <i className='fa fa-bath fa-md' />&nbsp; &nbsp;
                     Hotels & Casinos
                 </Link>
-                <Link className='restaurants' to='BestRestaurants'>
+                <Link className='restaurants' activeStyle={{ color: '#5754a8' }} to='BestRestaurants'>
                     <i className='fa fa-cutlery fa-md' />&nbsp; &nbsp;
                     Best Restaurants
                 </Link>

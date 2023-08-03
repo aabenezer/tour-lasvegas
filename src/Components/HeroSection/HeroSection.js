@@ -1,5 +1,5 @@
 import React from 'react';
-import vegaswide from '../../assets/img/las vegas wide 3a.jpg';
+import vegaswide from '../../assets/img/las vegas wide 1.png';
 import './HeroSection.css';
 import ab from '../../pages/HotelsCasinos';
 
