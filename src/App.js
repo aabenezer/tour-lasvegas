@@ -7,7 +7,7 @@ import Home from './pages/Home/Home';
 import AboutVegas from './pages/AboutVegas/AboutVegas';
 import BestRestaurants from './pages/BestRestaurants';
 import HotelsCasinos from './pages/HotelsCasinos';
-import ContactUs from './pages/ContactUs';
+import ContactUs from './pages/ContactUs/ContactUs';
 
 function App() {
   return (

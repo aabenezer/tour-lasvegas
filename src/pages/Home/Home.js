@@ -8,12 +8,16 @@ import './Home.css';
 import ent from '../../assets/img/Entertainment.jpg';
 import night from '../../assets/img/Nightlife.jpg';
 import attraction from '../../assets/img/Attraction.jpg';
+import dining from '../../assets/img/Dining.jpg';
 
 const Home = () => {
     return (
         <div>
             <HeroSection />
-            <div className='info-cards'>
+
+
+            <div className='information-cards'>
+
                 <div className='cards'>
                     <Card>
                         <CardImg src={ent} alt='lasvegas-entertainment' className='card-imgs' />
@@ -26,55 +30,59 @@ const Home = () => {
 
                         </CardBody>
                     </Card>
+                    </div>
+
+
+
+
+                    <div className='cards'>
+                        <Card>
+                            <CardImg src={attraction} alt='lasvegas-entertainment' className='card-imgs' />
+                            <CardBody>
+                                <CardTitle className='card-title'>ATTRACTIONS</CardTitle>
+                                <CardText className='card-body'>
+
+
+                                    Las Vegas is home to many world-famous attractions, including the Bellagio fountains, the High Roller observation wheel, the Stratosphere Tower, and the Hoover Dam. There are also many shopping centers, restaurants, and other tourist attractions in the city.
+                                </CardText>
+
+                            </CardBody>
+                        </Card>
+                    </div>
+
+
+                    <div className='cards'>
+                        <Card>
+                            <CardImg src={night} alt='lasvegas-entertainment' className='card-imgs' />
+                            <CardBody>
+                                <CardTitle className='card-title'>NIGHTLIFE</CardTitle>
+                                <CardText className='card-body'>
+
+                                    Las Vegas is famous for its nightlife, with a vast array of casinos, bars, clubs, and lounges. The city is particularly well-known for its hotels and casinos, which are open 24/7 and offer a wide range of slot and table games for the customers.
+                                </CardText>
+
+                            </CardBody>
+                        </Card>
+                    </div>
+
+                    <div className='cards'>
+                        <Card>
+                            <CardImg src={dining} alt='lasvegas-entertainment' className='card-imgs' />
+                            <CardBody>
+                                <CardTitle className='card-title'>SHOPPING & DINING</CardTitle>
+                                <CardText className='card-body'>
+
+                                    Las Vegas offers an unparalleled shopping and dining experience, from luxury boutiques to budget-friendly outlets. With celebrity chef restaurants and diverse dining concepts, it's a culinary wonderland. Visitors can savor gourmet dishes, indulge in buffets, and discover hidden gems for a delectable adventure.
+                                </CardText>
+
+                            </CardBody>
+                        </Card>
+                    </div>
                 </div>
-
-
-
-                <div className='cards'>
-                    <Card>
-                        <CardImg src={attraction} alt='lasvegas-entertainment' className='card-imgs' />
-                        <CardBody>
-                            <CardTitle className='card-title'>ATTRACTIONS</CardTitle>
-                            <CardText className='card-body'>
-
-
-                                Las Vegas is home to many world-famous attractions, including the Bellagio fountains, the High Roller observation wheel, the Stratosphere Tower, and the Hoover Dam. There are also many shopping centers, restaurants, and other tourist attractions in the city.
-                            </CardText>
-
-                        </CardBody>
-                    </Card>
-                </div>
-
-                <div className='cards'>
-                    <Card>
-                        <CardImg src={night} alt='lasvegas-entertainment' className='card-imgs' />
-                        <CardBody>
-                            <CardTitle className='card-title'>NIGHTLIFE</CardTitle>
-                            <CardText className='card-body'>
-
-                                Las Vegas is famous for its nightlife, with a vast array of casinos, bars, clubs, and lounges. The city is particularly well-known for its hotels and casinos, which are open 24/7 and offer a wide range of slot and table games for the customers.
-                            </CardText>
-
-                        </CardBody>
-                    </Card>
-                </div>
-
-                <div className='cards'>
-                    <Card>
-                        <CardImg src={night} alt='lasvegas-entertainment' className='card-imgs' />
-                        <CardBody>
-                            <CardTitle className='card-title'>SHOPPING & DINING</CardTitle>
-                            <CardText className='card-body'>
-
-                                Las Vegas offers an unparalleled shopping and dining experience, from luxury boutiques to budget-friendly outlets. With celebrity chef restaurants and diverse dining concepts, it's a culinary wonderland. Visitors can savor gourmet dishes, indulge in buffets, and discover hidden gems for a delectable adventure.
-                            </CardText>
-
-                        </CardBody>
-                    </Card>
-                </div>
-
             </div>
-        </div>
+      
+
+
 
 
     );

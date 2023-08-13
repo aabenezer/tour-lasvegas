@@ -7,7 +7,7 @@
 
 .slider {
     position: relative;
-    height: 1000px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,17 +59,17 @@
 @media (max-width: 768px) {
     .right-arrow {
         right: 20px;
-        /* Adjust the right position for the right arrow on smaller screens */
+
     }
 
     .left-arrow {
         left: 20px;
-        /* Adjust the left position for the left arrow on smaller screens */
+
     }
 
     .slider {
         position: relative;
-        height: 30vh;
+        height: 60vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -89,7 +89,31 @@
 
     .slider {
 
-        height: 50vh;
+        height: 80vh;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .slider {
+
+        height: 20vh;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .slider {
+
+        height: 70vh;
+
+    }
+}
+
+@media (max-width: 900px) {
+    .slider {
+
+        height: 40vh;
 
     }
 }

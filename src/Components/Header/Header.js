@@ -16,7 +16,7 @@ const Header = () => {
             <Link to='/'>
                 <img src={logo} alt='tour-lasvegas-logo' className='logo-image img-fluid' />
             </Link>
-            <h3 className='logo'>Tour Las Vegas</h3>
+            <h2 className='logo'>Tour Las Vegas</h2>
 
             <div className="menu-icon" onClick={toggleMenu}>
                 <i className={`fa ${showMenu ? 'fa-times' : 'fa-bars'} fa-lg`} />

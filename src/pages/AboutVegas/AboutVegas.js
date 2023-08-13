@@ -37,65 +37,66 @@ const AboutVegas = () => {
 
             <div className='info-cards'>
 
+              
+                    <div className='cards'>
+                        <Card>
+                            <CardBody>
+                                <CardTitle className='card-title'><i className='fa fa-map fa-md  card-icon' /></CardTitle>
+                                <h2 className='card-header'>135.9 mi²</h2>
+                                <CardText className='card-body'>
 
-                <div className='cards'>
-                    <Card>
-                        <CardBody>
-                            <CardTitle className='card-title'><i className='fa fa-map fa-md  card-icon' /></CardTitle>
-                            <h2 className='card-header'>135.9 mi²</h2>
-                            <CardText className='card-body'>
-
-                                Las Vegas stretches across an approximate width of 16 miles, encompassing a dynamic landscape that ranges from the iconic Las Vegas Strip, renowned for its dazzling lights and grand resorts, to the picturesque outskirts framed by the breathtaking Red Rock Canyon.
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                </div>
-
-
-
-                <div className='cards'>
-                    <Card>
-                        <CardBody>
-                            <CardTitle className='card-title'><i className='fa fa-users fa-md  card-icon' /></CardTitle>
-                            <h2 className='card-header'> 35,000,000</h2>
-                            <CardText className='card-body'>
-
-                                Las Vegas, a captivating hub of entertainment and allure, entices global visitors with vibrant lights, renowned casinos, and an iconic Strip. As the most visited U.S. city, more than 35 million visitors flock here annually, seeking its unique blend of excitement and extravagance.
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                </div>
+                                    Las Vegas stretches across an approximate width of 16 miles, encompassing a dynamic landscape that ranges from the iconic Las Vegas Strip, renowned for its dazzling lights and grand resorts, to the picturesque outskirts framed by the breathtaking Red Rock Canyon.
+                                </CardText>
+                            </CardBody>
+                        </Card>
+                    </div>
 
 
 
-                <div className='cards'>
-                    <Card>
-                        <CardBody>
-                            <CardTitle className='card-title'><i className='fa fa-bed fa-md  card-icon' /></CardTitle>
-                            <h2 className='card-header'> 150,000</h2>
-                            <CardText className='card-body'>
+                    <div className='cards'>
+                        <Card>
+                            <CardBody>
+                                <CardTitle className='card-title'><i className='fa fa-users fa-md  card-icon' /></CardTitle>
+                                <h2 className='card-header'> 35,000,000</h2>
+                                <CardText className='card-body'>
 
-                                As of 2022, the Las Vegas Convention and Visitors Authority reports there were over 150,000 hotel rooms across more than 150 different hotels on the Las Vegas Strip and downtown area. The Las Vegas Strip itself contains over 130,000 rooms across around 25 major resort-style hotel-casinos.
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                </div>
+                                    Las Vegas lures worldwide tourists with its dazzling lights, famous casinos, and iconic Strip. As a top U.S. destination, over 35 million visit annually for its unique excitement and extravagance.
+                                </CardText>
+                            </CardBody>
+                        </Card>
+                    </div>
+               
 
 
-                <div className='cards'>
-                    <Card>
-                        <CardBody>
-                            <CardTitle className='card-title'><i className='fa fa-heart fa-md  card-icon' /></CardTitle>
-                            <h2 className='card-header'> 300</h2>
-                            <CardText className='card-body'>
+                    <div className='cards'>
+                        <Card>
+                            <CardBody>
+                                <CardTitle className='card-title'><i className='fa fa-bed fa-md  card-icon' /></CardTitle>
+                                <h2 className='card-header'> 150,000</h2>
+                                <CardText className='card-body'>
 
-                                Las Vegas has earned its reputation as the "Wedding Capital of the World" by hosting an impressive average of around 300 weddings per day. This bustling daily celebration of love and commitment showcases the city's unique appeal to couples from all walks of life.
-                            </CardText>
-                        </CardBody>
-                    </Card>
+                                    By 2022, the Las Vegas Convention and Visitors Authority noted 150,000 rooms in 150+ hotels on the Strip and downtown. The Strip alone has 130,000 rooms in about 25 major resort-style hotel-casinos.
+                                </CardText>
+                            </CardBody>
+                        </Card>
+                    </div>
+
+
+                    <div className='cards'>
+                        <Card>
+                            <CardBody>
+                                <CardTitle className='card-title'><i className='fa fa-heart fa-md  card-icon' /></CardTitle>
+                                <h2 className='card-header'> 300</h2>
+                                <CardText className='card-body'>
+
+                                    Las Vegas has earned its reputation as the "Wedding Capital of the World" by hosting an impressive average of around 300 weddings per day. This bustling daily celebration of love and commitment showcases the city's unique appeal to couples from all walks of life.
+                                </CardText>
+                            </CardBody>
+                        </Card>
+                    </div>
                 </div>
             </div>
-        </div>
+        
 
 
 
