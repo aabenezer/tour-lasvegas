@@ -2,8 +2,8 @@ import React from 'react';
 import vegaswide from '../../assets/img/las vegas wide 8.jpg';
 import './HeroSection.css';
 import { Link } from 'react-router-dom';
-import ab from '../../pages/HotelsCasinos';
-import HotelsCasinos from '../../pages/HotelsCasinos';
+import ab from '../../pages/HotelsCasinos/HotelsCasinos';
+import HotelsCasinos from '../../pages/HotelsCasinos/HotelsCasinos';
 
 const HeroSection = () => {
     return (
@@ -19,8 +19,8 @@ const HeroSection = () => {
                     <button className='hero-button'>
                         <Link to='/HotelsCasinos' className='hero-button'>Explore</Link>
                     </button>
-            </div>
-            
+                </div>
+
 
             </div>
 

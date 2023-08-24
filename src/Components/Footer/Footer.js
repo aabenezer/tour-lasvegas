@@ -19,41 +19,63 @@ const Footer = () => {
                     </div>
                     <hr className='small' />
 
+                    
+                    <div className='footer-links-main'>
                     <div className='footer-links'>
-                        <h4></h4>
-                        <ul className='footer-links-list' >
-                            <Link className='hotels' to='HotelsCasinos'>
+                    
+                        <h4 className='footer-title'>Navigation Links</h4>
+                        <ul className='footer-links-lists' >
+                            <Link className='link' to='HotelsCasinos'>
 
                                 Hotels & Casinos
                             </Link>
-                            <Link className='restaurants' to='BestRestaurants'>
+                            <Link className='link' to='BestRestaurants'>
 
                                 Best Restaurants
                             </Link>
-                            <Link className='aboutVegas' to='AboutVegas'>
+                            <Link className='link' to='AboutVegas'>
 
                                 About Vegas
                             </Link>
-                            <Link className='contact' to='ContactUs'>
+                            <Link className='link' to='ContactUs'>
 
                                 Contact Us
                             </Link>
                         </ul>
                     </div>
+
+
+
+                    <div className='footer-links'>
+                        <h4 className='footer-title'>Useful Links</h4>
+                        <ul className='footer-links-lists' >
+                            
+                            <a href="https://www.lasvegasnevada.gov/" class="link" target="_blank">City of Las Vegas</a>
+                            <a href="https://www.lvcva.com/" class="link" target="_blank">Las vegas convention center</a>
+                            <a href="https://www.harryreidairport.com/" class="link" target="_blank">Harry Reid International Airport</a>
+                            <a href="https://www.rtcsnv.com/" class="link" target="_blank">RTC of Southern Nevada</a>
+                           
+                        </ul>
+                    </div>
+
+                    </div>
+
+
+
                     <hr className='small' />
 
                     <div className='footer-social'>
                         <h4>Connect with us</h4>
-                        <Link className='social' to='/'>
+                        <Link className='social' to='https://www.facebook.com/'>
                             <i className='fa fa-facebook fa-md' />
                         </Link>
-                        <Link className='social' to='/'>
+                        <Link className='social' to='https://twitter.com/'>
                             <i className='fa fa-twitter fa-md' />
                         </Link>
-                        <Link className='social' to='/'>
+                        <Link className='social' to='https://www.youtube.com/'>
                             <i className='fa fa-youtube-play fa-md' />
                         </Link>
-                        <Link className='social' to='/'>
+                        <Link className='social' to='https://www.instagram.com/'>
                             <i className='fa fa-instagram fa-md' />
                         </Link>
                     </div>

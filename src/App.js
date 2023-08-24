@@ -5,8 +5,8 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Home from './pages/Home/Home';
 import AboutVegas from './pages/AboutVegas/AboutVegas';
-import BestRestaurants from './pages/BestRestaurants';
-import HotelsCasinos from './pages/HotelsCasinos';
+import BestRestaurants from './pages/BestRestaurants/BestRestaurants';
+import HotelsCasinos from './pages/HotelsCasinos/HotelsCasinos';
 import ContactUs from './pages/ContactUs/ContactUs';
 
 function App() {

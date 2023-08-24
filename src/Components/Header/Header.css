@@ -52,19 +52,19 @@
 }
 
 .logo {
-font-family: 'Borel', cursive;
+    font-family: 'Borel', cursive;
     margin-right: auto;
     font-size: 40px;
     margin-top: 15px;
     font-size: 72px;
     font-weight: bolder;
     background-color: #f3ec78;
-        background-image: linear-gradient(45deg, #f3ce78, #f0a86d);
-        background-size: 100%;
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
+    background-image: linear-gradient(45deg, #f3ce78, #f0a86d);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 .menu-icon {
@@ -75,12 +75,14 @@ font-family: 'Borel', cursive;
     display: flex;
     list-style: none;
     z-index: 1000;
+
 }
 
 .menu-items a:hover {
     color: #f0a86d;
     border-color: #f0a86d;
- 
+
+
 }
 
 

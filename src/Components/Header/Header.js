@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 import logo from '../../assets/img/vegas logo white.png';
 import 'font-awesome/css/font-awesome.css';
+import { FaUtensils, FaHotel, FaInfoCircle, FaPaperPlane } from "react-icons/fa";
 
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -26,19 +27,19 @@ const Header = () => {
                 onClick={() => setShowMenu(false)}
             >
                 <Link className='hotels' to='HotelsCasinos'>
-                    <i className='fa fa-bath fa-md' />&nbsp; &nbsp;
+                    <FaHotel /> &nbsp;
                     Hotels & Casinos
                 </Link>
-                <Link className='restaurants' activeStyle={{ color: '#5754a8' }} to='BestRestaurants'>
-                    <i className='fa fa-cutlery fa-md' />&nbsp; &nbsp;
+                <Link className='restaurants' to='BestRestaurants'>
+                    <FaUtensils /> &nbsp;
                     Best Restaurants
                 </Link>
                 <Link className='aboutVegas' to='AboutVegas'>
-                    <i className='fa fa-flag fa-md' />&nbsp; &nbsp;
+                    <FaInfoCircle /> &nbsp;
                     About Vegas
                 </Link>
                 <Link className='contact' to='ContactUs'>
-                    <i className='fa fa-paper-plane fa-md' />&nbsp; &nbsp;
+                    <FaPaperPlane /> &nbsp;
                     Contact Us
                 </Link>
                 <Link className='signin' to='SignIn'>

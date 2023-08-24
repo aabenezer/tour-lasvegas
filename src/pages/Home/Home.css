@@ -3,16 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-HeroSection {
-    display: none;
-}
+
 
 .information-cards {
     display: flex;
     flex-direction: row;
     /* flex-wrap: wrap; */
     margin: 50px 5px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 
 
@@ -51,6 +49,26 @@ HeroSection {
 .card-body {
     padding: 10px 10px;
     color: white;
+}
+
+@media (max-width: 1000px) {
+
+    .information-cards {
+        display: flex;
+        flex-wrap: wrap;
+
+
+
+
+    }
+
+.cards {
+    max-width: 700px;
+}
+
+
+
+
 }
 
 @media (max-width: 860px) {
