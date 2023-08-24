@@ -1,0 +1,149 @@
+
+
+{
+    "Hotels": [
+        {
+            "id": 1,
+            "title": "Bellagio Las Vegas",
+            "price": "$$$$",
+            "rooms": "3,950 guest rooms",
+            "image": "./hotels/bellagio.jpg",
+            "address": "3600 Las Vegas Blvd S Las Vegas, NV ",
+            "description": "Bellagio Las Vegas is a luxury hotel and casino located on the famous Las Vegas Strip. It is known for its iconic fountains, fine dining options, and elegant decor.",
+            "webAddress": "https://bellagio.mgmresorts.com/en.html",
+            "book": "https://bellagio.mgmresorts.com/book-room/resort/?region=las-vegas&resort=44e610ab-c209-4232-8bb4-51f7b9b13a75"
+        },
+
+        {
+            "id": 2,
+            "title": "The Venetian Resort Las Vegas",
+            "price": "$$$$",
+            "rooms": "4,049 guest rooms",
+            "image": "./hotels/venetian.jpg",
+            "address": "3355 S Las Vegas Blvd, Las Vegas, NV ",
+            "description": "The Venetian Las Vegas is a luxury hotel and casino inspired by the timeless beauty and charm of Venice, Italy. The hotel features an indoor canal that is navigated by authentic gondolas, complete with singing gondoliers.",
+            "webAddress": "https://www.venetianlasvegas.com/",
+            "book": "https://www.venetianlasvegas.com/booking?adults[]=2&arrival_date=2023-03-03&children[]=0&departure_date=2023-03-05&view=calendar"
+        },
+
+        {
+            "id": 3,
+            "title": "Wynn Las Vegas",
+            "price": "$$$$",
+            "rooms": "2,716 guest rooms",
+            "image": "./hotels/wynn.jpg",
+            "address": "3131 Las Vegas Blvd S, Las Vegas, NV ",
+            "description": "Wynn Las Vegas is known for its elegant decor, fine dining options, and high-end designer boutiques. It also has a stunning waterfall feature that cascades down a man-made mountain, which is one of the largest in the world.",
+            "webAddress": "https://www.wynnlasvegas.com/",
+            "book": "https://reservations.wynnlasvegas.com/ibe/index.aspx?hotelID=13763&langID=1&currID=0&checkin=03/02/2023&checkout=03/05/2023&rooms=1&adults=2"
+        },
+
+        {
+            "id": 4,
+            "title": "Paris Las Vegas",
+            "price": "$$$$",
+            "rooms": "2,916 guest rooms",
+            "image": "./hotels/paris.jpg",
+            "address": "3655 S Las Vegas Blvd, Las Vegas, NV ",
+            "description": "The Paris Las Vegas is a hotel and casino located on the Las Vegas Strip that is themed after the city of Paris, France. One of its most recognizable features is a half-scale replica of the Eiffel Tower, which stands at 541 feet tall and offers panoramic views of the city.",
+            "webAddress": "https://www.caesars.com/paris-las-vegas",
+            "book": "https://www.caesars.com/book/hotel-calendar?dateSearchFormat=flexible-dates&flexibleMonth=March&roomDetails=[{%22adults%22:2,%22children%22:0}]&propCode=plv&roomCount=1&viewrates=dollars&roomFilters=[{%22accessible%22:[%22N%22]}]"
+        },
+
+        {
+            "id": 5,
+            "title": "Caesars Palace",
+            "price": "$$$$",
+            "rooms": " 3,348 guest rooms",
+            "image": "./hotels/caesars.jpg",
+            "address": "3570 S Las Vegas Blvd, Las Vegas, NV ",
+            "description": "Caesars Palace is a luxury hotel and casino located on the Las Vegas Strip that has been in operation since 1966. It is known for its opulent Roman Empire theme, with features such as marble columns, fountains, and statues throughout the property. Acts such as Elton John, Celine Dion, and Jerry Seinfeld have all performed at the Colosseum, which can seat up to 4,300 people.",
+            "webAddress": "https://www.caesars.com/caesars-palace",
+            "book": "https://www.caesars.com/book/hotel-calendar?dateSearchFormat=flexible-dates&flexibleMonth=March&roomDetails=[{%22adults%22:2,%22children%22:0}]&propCode=clv&roomCount=1&viewrates=dollars&roomFilters=[{%22accessible%22:[%22N%22]}]"
+        },
+
+        {
+            "id": 6,
+            "title": "Excalibur",
+            "price": "$$",
+            "rooms": " 4,032 guest rooms",
+            "image": "./hotels/excalibur.jpg",
+            "address": " 3850 S Las Vegas Blvd, Las Vegas, NV ",
+            "description": "The Excalibur is a hotel and casino located on the Las Vegas Strip that is themed after the legend of King Arthur and the Knights of the Round Table. The property features a castle-like facade, complete with turrets and a drawbridge, and is designed to transport guests back to medieval times.",
+            "webAddress": "https://excalibur.mgmresorts.com/en.html?ecid=GMB_EX_HO",
+            "book": "https://excalibur.mgmresorts.com/book-room/resort/?region=las-vegas&resort=f8d6a944-7816-412f-a39a-9a63aad26833"
+        },
+
+        {
+            "id": 7,
+            "title": "MGM Grand",
+            "price": "$$$",
+            "rooms": " 6852 guest rooms",
+            "image": "./hotels/mgm grand.jpg",
+            "address": " 3799 S Las Vegas Blvd, Las Vegas, NV ",
+            "description": "The MGM Grand is a hotel and casino located on the Las Vegas Strip that opened in 1993. At the time of its opening, it was the largest hotel in the world with 5,005 rooms. The property has since undergone multiple expansions and renovations, and now features over 6,700 rooms.",
+            "webAddress": "https://mgmgrand.mgmresorts.com/book-room/resort/?region=las-vegas&resort=66964e2b-2550-4476-84c3-1a4c0c5c067f",
+            "book": "https://mgmgrand.mgmresorts.com/book-room/resort/?region=las-vegas&resort=66964e2b-2550-4476-84c3-1a4c0c5c067f"
+        },
+
+        {
+            "id": 8,
+            "title": "New York-New York",
+            "price": "$$",
+            "rooms": "2,024 guest rooms",
+            "image": "./hotels/new york.jpg",
+            "address": "3790 S Las Vegas Blvd, Las Vegas, NV ",
+            "description": "The New York-New York is a hotel and casino located on the Las Vegas Strip that is designed to look like the New York City skyline. The property features replicas of famous landmarks such as the Statue of Liberty, the Empire State Building, and the Brooklyn Bridge. The New York-New York also has a roller coaster called the Big Apple Coaster, which travels through the property's replica skyline.",
+            "webAddress": "https://newyorknewyork.mgmresorts.com/en.html?ecid=GMB_NY_HO",
+            "book": "https://newyorknewyork.mgmresorts.com/book-room/resort/?region=las-vegas&resort=dc00e77f-d6bb-4dd7-a8ea-dc33ee9675ad"
+        },
+
+        {
+            "id": 9,
+            "title": "Mandalay Bay",
+            "price": "$$$",
+            "rooms": "3,309 guest rooms",
+            "image": "./hotels/mandalay bay.jpg",
+            "address": "3950 S Las Vegas Blvd. Las Vegas, NV ",
+            "description": "The Mandalay Bay is a luxury resort and casino located on the south end of the Las Vegas Strip. The property opened in 1999 and features a tropical theme, complete with a beach and wave pool area called Mandalay Bay Beach. The Mandalay Bay is also home to the Shark Reef Aquarium, which is a 1.3 million gallon tank that houses over 2,000 marine animals, including sharks, rays, and sea turtles.",
+            "webAddress": "https://mandalaybay.mgmresorts.com/en.html?ecid=GMB_MB_HO",
+            "book": "https://mandalaybay.mgmresorts.com/book-room/resort/?region=las-vegas&resort=e0f70eb3-7e27-4c33-8bcd-f30bf3b1103a"
+        },
+
+        {
+            "id": 10,
+            "title": "Encore",
+            "price": "$$$$",
+            "rooms": "2,034 guest rooms",
+            "image": "./hotels/encore.jpg",
+            "address": "3131 Las Vegas Blvd S, Las Vegas, NV ",
+            "description": "Encore Las Vegas is a luxury hotel and casino located on the Las Vegas Strip that is owned and operated by Wynn Resorts. The property opened in 2008 as an extension of the nearby Wynn Las Vegas, and features a sleek, modern design with an emphasis on luxury. Encore Las Vegas is also home to XS Nightclub, which is one of the most popular nightclubs in Las Vegas.",
+            "webAddress": "https://www.wynnlasvegas.com/",
+            "book": "https://reservations.wynnlasvegas.com/ibe/index.aspx?hotelID=13763&langID=1&currID=0&checkin=03/02/2023&checkout=03/05/2023&rooms=1&adults=2"
+        },
+
+        {
+            "id": 11,
+            "title": "The Cosmopolitan",
+            "price": "$$$$",
+            "rooms": "3,027 guest rooms",
+            "image": "./hotels/cosmo.jpg",
+            "address": "3708 Las Vegas Blvd S, Las Vegas, NV ",
+            "description": "The Cosmopolitan is a luxury resort and casino located on the Las Vegas Strip that opened in 2010. The property features a unique design with two high-rise towers that are connected by a multi-level shopping and entertainment complex called The Chelsea. The Cosmopolitan is also known for its dining options, with a variety of high-end restaurants and innovative culinary concepts.",
+            "webAddress": "https://www.cosmopolitanlasvegas.com/",
+            "book": "https://reservations.cosmopolitanlasvegas.com/74495?gtmref=identity&app=Cosmopolitan&command=book&hotelid=74495&dateIn=03/02/2023&dateOut=03/03/2023&rooms=1&adults=2"
+        },
+
+        {
+            "id": 11,
+            "title": "Resorts World",
+            "price": "$$$$",
+            "rooms": "3,506 guest rooms",
+            "image": "./hotels/resorts.jpg",
+            "address": "3000 S Las Vegas Blvd, Las Vegas, NV ",
+            "description": "Resorts World is a new resort and casino located on the north end of the Las Vegas Strip that opened in June 2021. The property is the first new resort to be built on the Strip in over a decade, and features a modern design with a focus on technology and entertainment. Resorts World is also home to several new dining concepts, including famous restaurants from around the world such as Sun's Out Buns Out from Los Angeles.",
+            "webAddress": "https://www.rwlasvegas.com/",
+            "book": "https://reservations.rwlasvegas.com/ibe/index.aspx?propertyid=16702&checkin=08/23/2023"
+        }
+    ]
+}
