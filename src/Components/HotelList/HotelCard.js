@@ -13,9 +13,9 @@ const HotelCard = ({ hotel }) => {
                 <div className='hotel-text'>
                     <h2 className='hotel-title'>{hotel.title}</h2>
                     <p className='hotel-desc'>{hotel.description}</p>
-                    <p className='hotel-price'><FaMoneyBillWave className='side-icons' />&nbsp; &nbsp; {hotel.price}</p>
-                    <p className='hotel-rooms'><FaHome className='side-icons' />&nbsp; &nbsp; {hotel.rooms}</p>
-                    <p className='hotel-address'><FaMapMarkerAlt className='side-icons' /> &nbsp; &nbsp;  {hotel.address}</p>
+                    <p className='hotel-price hotel-text-info'><FaMoneyBillWave className='side-icons' />&nbsp;&nbsp; {hotel.price}</p>
+                    <p className='hotel-rooms hotel-text-info'><FaHome className='side-icons' />&nbsp;&nbsp; {hotel.rooms}</p>
+                    <p className='hotel-address hotel-text-info'><FaMapMarkerAlt className='side-icons' /> &nbsp;  {hotel.address}</p>
                     <a className='hotel-link' href={hotel.webAddress} target="_blank" rel="noopener noreferrer">Website</a>
                     <a className='hotel-link' href={hotel.book} target="_blank" rel="noopener noreferrer">Book Now</a>
                 </div>

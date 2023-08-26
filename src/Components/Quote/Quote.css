@@ -1,0 +1,68 @@
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 90px 20px;
+}
+
+.quote-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image-container {
+    width: 120px;
+    height: 120px;
+    border: rgb(197, 173, 121) 1px solid;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.author-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.quote-text {
+font-family: 'Moon Dance', cursive;
+color: #743838;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-indent: 30px;
+}
+
+.quote-mark {
+    font-size: 50px;
+    color: rgb(197, 173, 121);
+}
+.author-name {
+    font-style: italic;
+    color: rgb(197, 173, 121);
+}
+
+
+.dot-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background-color: #743838;
+}

@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "author": "Elvis Presley",
+        "quote": "Las Vegas is a place where you can indulge in your wildest desires and leave your worries behind.",
+        "image": "./Celebrities/Elvis Presley.jpg"
+    },
+    {
+        "id": 2,
+        "author": "Frank Sinatra",
+        "quote": " Las Vegas is the only place I know where money really talks—it says 'Goodbye.' ",
+        "image": "./Celebrities/Frank Sinatra.jpg"
+    },
+    {
+        "id": 3,
+        "author": "Celine Dion",
+        "quote": " Las Vegas is a place of extravagant hopes and dreams, a place where fortunes are won and lost and won again. ",
+        "image": "./Celebrities/celine dion.jpg"
+    },
+    {
+        "id": 4,
+        "author": "Steve Wynn",
+        "quote": " Las Vegas is a city where fortunes are made and lost, and the line between success and failure is often razor-thin. ",
+        "image": "./Celebrities/Steve Wynn.jpg"
+    },
+    {
+        "id": 5,
+        "author": "Jennifer Lopez",
+        "quote": " Las Vegas is a city that never sleeps, where the lights never dim, and the energy never fades. ",
+        "image": "./Celebrities/Jennifer Lopez.jpg"
+    },
+    {
+        "id": 6,
+        "author": "Jerry Seinfeld",
+        "quote": "Las Vegas is a city that exists for the sole purpose of giving people the greatest time of their lives.",
+        "image": "./Celebrities/Jerry Seinfeld.jpg"
+    }
+
+
+]

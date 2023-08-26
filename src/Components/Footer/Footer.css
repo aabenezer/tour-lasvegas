@@ -11,6 +11,7 @@
     left: 0;
     bottom: 0; */
     width: 100%;
+border-top: 5px solid rgb(197, 173, 121);
 
 }
 
@@ -90,7 +91,7 @@
 }
 
 .footer-links a:hover {
-    color: #e99c5c;
+    color: rgb(197, 173, 121);
 }
 
 
@@ -115,14 +116,14 @@
 
 .social {
     text-decoration: none;
-    color: #ef8d3c;
+    color: #c5ad79;
     font-size: 20px;
     padding: 10px 10px;
     margin: 0 5px;
 }
 
 .footer-social a:hover {
-    color: #c9732d;
+    color: #f6d795;
 }
 
 .small {
@@ -130,7 +131,7 @@
 }
 
 .copyright {
-    color: #c9732d;
+    color: #c5ad79;
 
 }
 

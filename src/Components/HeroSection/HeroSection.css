@@ -20,6 +20,7 @@ object-fit: cover;
     text-align: left;
     
     background-color: rgba(0, 0, 0, 0.7);
+    border-left: 10px solid #c5ad79;
     padding: 40px;
     
     
@@ -45,19 +46,19 @@ object-fit: cover;
 }
 
 .hero-button {
-    padding: 12px 84px;
+    padding: 12px 30px;
     font-size: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-   background-color: rgb(200, 160, 87);
-    
+   background-color: #c5ad79;
+    border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .hero-button:hover {
-    background-color: #bd6f2f;
+    background-color: #f9db99;
 
 }
 

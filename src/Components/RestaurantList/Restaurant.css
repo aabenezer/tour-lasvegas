@@ -15,10 +15,19 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.5s;
 }
+.restaurant-rating {
+    color: rgb(255, 153, 0);
+}
 
 .restaurant-card:hover {
     transform: translateY(-15px);
 
+}
+
+.restaurant-text-info {
+    font-weight: bold;
+    color: #743838;
+    font-size: 15px;
 }
 
 .restaurant-img {
@@ -49,7 +58,7 @@
 
 .restaurant-link {
     text-decoration: none;
-    background-color: rgb(50, 72, 72);
+    background-color: #743838;
     color: aliceblue;
     border-radius: 50px;
     padding: 10px 30px;
@@ -67,7 +76,7 @@
 }
 
 .restaurant-title {
-    color: rgb(208, 151, 5);
+    color: #743838;
     margin: 5px 0px;
 }
 .restaurant-rating {

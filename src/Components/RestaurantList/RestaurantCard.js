@@ -37,11 +37,11 @@ const RestaurantCard = ({ restaurant }) => {
                     <p className='restaurant-desc'>{restaurant.description}</p> 
                     <div className='restaurant-rating'>{renderStars(restaurant.rating)}</div>
                     <div className='inline-container'>
-                        <p className='restaurant-price'><FaMoneyBillWave className='side-icons' /> {restaurant.price}</p>&nbsp;  |  &nbsp;      
-                        <p className='restaurant-type'><FaUtensils className='side-icons' /> {restaurant.type}</p>
+                        <p className='restaurant-price restaurant-text-info'><FaMoneyBillWave className='side-icons' /> {restaurant.price}</p>&nbsp;  |  &nbsp;      
+                        <p className='restaurant-type restaurant-text-info'><FaUtensils className='side-icons' /> {restaurant.type}</p>
                     </div>
                     
-                    <p className='restaurant-address'><FaMapMarkerAlt className='side-icons' /> {restaurant.address}</p>
+                    <p className='restaurant-address restaurant-text-info'><FaMapMarkerAlt className='side-icons' /> {restaurant.address}</p>
                     <a className='restaurant-link' href={restaurant.book} target="_blank" rel="noopener noreferrer">Reserve a table</a>
                 </div>
             </div>

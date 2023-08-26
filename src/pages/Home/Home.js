@@ -5,6 +5,7 @@ import {
     CardTitle, CardText, Button
 } from "reactstrap";
 import './Home.css';
+import Quote from '../../Components/Quote/Quote';
 import ent from '../../assets/img/Entertainment.jpg';
 import night from '../../assets/img/Nightlife.jpg';
 import attraction from '../../assets/img/Attraction.jpg';
@@ -79,6 +80,8 @@ const Home = () => {
                         </Card>
                     </div>
                 </div>
+
+            <Quote/>
             </div>
       
 

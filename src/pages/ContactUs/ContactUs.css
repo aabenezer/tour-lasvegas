@@ -14,9 +14,7 @@
     margin: 80px;
 
 }
-Example {
-    border: #141211;
-}
+
 
 
 .container-content {
@@ -25,12 +23,9 @@ Example {
 
 }
 .text-danger {
-
-    color: #141211;
-    background-color:#5a5958;
-    border-radius: 50px;
-    margin: 5px;
-padding: 10px;
+    color: #e0b87c;
+    margin: 0px;
+padding: 5px;
 
 }
 
@@ -60,7 +55,7 @@ padding: 10px;
     font-size: 20px;
     color: white;
     text-decoration: none;
-    background-color: #ef8d3c;
+    background-color: #e0b87c;
     border: none;
     margin-top: 20px;
     border-radius: 50px;
@@ -69,6 +64,6 @@ padding: 10px;
 }
 
 Button:hover {
-    background-color: #bd6f2f;
+    background-color: #c19b63;
 
 }
