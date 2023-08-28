@@ -1,0 +1,36 @@
+.newsletter-tab {
+max-width: 80%;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-tab h1 {
+    font-weight: normal;
+    color: #743838;
+
+}
+
+.newsletter-space {
+    width: 800px;
+    padding: 10px;
+}
+
+.newsletter-button {
+    padding: 10px 20px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: #e0b87c;
+    border: none;
+    margin-top: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-button:hover {
+    background-color: #c19b63;
+
+}
