@@ -1,6 +1,6 @@
 .newsletter-tab {
-max-width: 80%;
-    margin: 30px;
+max-width: 100%;
+    margin: 50px  0px;
     justify-content: center;
     align-items: center;
 }
@@ -13,11 +13,20 @@ max-width: 80%;
 
 .newsletter-space {
     width: 800px;
+    margin: 10px;
     padding: 10px;
+    border: #743838 solid 1px;
+    color: #c19b63;
 }
 
+.newsletter-consent {
+    font-size: x-small;
+}
+
+
+
 .newsletter-button {
-    padding: 10px 20px;
+    padding: 8px 20px;
     margin-left: 15px;
     font-size: 20px;
     color: rgb(0, 0, 0);
@@ -33,4 +42,21 @@ max-width: 80%;
 .newsletter-button:hover {
     background-color: #c19b63;
 
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .newsletter-space {
+            width: 80%;
+            padding: 10px;
+            border: #743838 solid 1px;
+        }
+
+.newsletter-tab {
+        width: 80%;
+        
+    }
+
+        
 }

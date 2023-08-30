@@ -6,7 +6,7 @@ const Quote = () => {
     const [currentQuote, setCurrentQuote] = useState(0);
 
     useEffect(() => {
-        // Fetch quotes from the JSON file
+        
         fetch("./Quotes.json")
             .then((response) => response.json())
             .then((data) => setQuotes(data))
@@ -16,7 +16,7 @@ const Quote = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentQuote((prevQuote) => (prevQuote + 1) % quotes.length);
-        }, 5000); // Change quote every 5 seconds
+        }, 5000);
 
         return () => clearInterval(interval);
     }, [quotes.length]);

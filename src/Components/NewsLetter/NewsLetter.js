@@ -22,9 +22,15 @@ const NewsletterTab = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
+                    
                 />
-                <button className='newsletter-button' type="submit">Subscribe</button>
+                <div>
+                  
+                    <button className='newsletter-button' type="submit">Subscribe</button>
+                </div>
+                
             </form>
+            
         </div>
     );
 };

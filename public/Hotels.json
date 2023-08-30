@@ -135,7 +135,7 @@
         },
 
         {
-            "id": 11,
+            "id": 12,
             "title": "Resorts World",
             "price": "$$$$",
             "rooms": "3,506 guest rooms",
@@ -144,6 +144,113 @@
             "description": "Resorts World is a new resort and casino located on the north end of the Las Vegas Strip that opened in June 2021. The property is the first new resort to be built on the Strip in over a decade, and features a modern design with a focus on technology and entertainment. Resorts World is also home to several new dining concepts, including famous restaurants from around the world such as Sun's Out Buns Out from Los Angeles.",
             "webAddress": "https://www.rwlasvegas.com/",
             "book": "https://reservations.rwlasvegas.com/ibe/index.aspx?propertyid=16702&checkin=08/23/2023"
+        },
+        {
+            "id": 13,
+            "title": "Luxor Hotel & Casino",
+            "price": "$$",
+            "rooms": "4,400  guest rooms",
+            "image": "./hotels/Luxor Hotel & Casino.jpg",
+            "address": "3900 S Las Vegas Blvd, Las Vegas, NV ",
+            "description": "Luxor Las Vegas stands as an iconic testament to the vibrant and opulent spirit of the Las Vegas Strip. Shaped like a colossal black pyramid with a luminous apex, this renowned resort and casino exudes an air of ancient Egyptian mystique merged with modern extravagance. From its iconic Sky Beam piercing through the desert night to its sprawling casino, rejuvenating spas, and a variety of dining experiences, Luxor offers an immersive and unforgettable escape into the heart of Las Vegas' legendary allure.",
+            "webAddress": "https://luxor.mgmresorts.com/en.html?ecid=GMB_LX_HO",
+            "book": "https://luxor.mgmresorts.com/book-room?resort=607c07e7-3e31-4e4c-a4e1-f55dca66fea2&region=las-vegas"
+        },
+
+        {
+            "id": 14,
+            "title": "Circa Resort & Casino",
+            "price": "$$$",
+            "rooms": "777  guest rooms",
+            "image": "./hotels/Circa Resort & Casino.jpg",
+            "address": "8 E Fremont St, Las Vegas, NV  ",
+            "description": "Circa Las Vegas stands as a vibrant testament to the city's ever-evolving entertainment landscape, a dazzling oasis nestled in the heart of the iconic Fremont Street Experience. With its grand opening in 2020, Circa introduced a new era of indulgence, combining vintage charm with modern luxury. Boasting the title of being the first adults-only resort and casino in downtown Las Vegas, Circa's towering presence is marked by its gleaming 777-room hotel, a dynamic casino floor pulsating with energy, and the world's largest sportsbook, a haven for sports enthusiasts.",
+            "webAddress": "https://www.circalasvegas.com/",
+            "book": "https://circalasvegas.book.pegsbe.com/rooms?Rooms=1&CheckinDate=2023-08-29&LOS=1&Adults_1=2&Children_1=0&locale=en&Currency=USD&offerCode="
+        },
+
+        {
+            "id": 15,
+            "title": "Horseshoe Las Vegas",
+            "price": "$$$",
+            "rooms": "2,812 guest rooms",
+            "image": "./hotels/Horseshoe Las Vegas.jpg",
+            "address": "3645 S Las Vegas Blvd, Las Vegas, NV",
+            "description": "Horseshoe Las Vegas, now rebranded as Bally's Las Vegas, stands as an iconic and vibrant destination on the bustling Las Vegas Strip. Renowned for its lively atmosphere and central location, Bally's offers a unique blend of classic charm and modern amenities, capturing the essence of the city's entertainment culture. Boasting a sprawling casino floor, diverse dining options, and a range of entertainment venues, Bally's invites guests to immerse themselves in the exhilarating energy of Las Vegas while enjoying the convenience of its prime Strip position.",
+            "webAddress": "https://www.caesars.com/horseshoe-las-vegas?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=HorseshoeLasVegasHotelandCasino&utm_content=hotel&y_source=1_NDM2Njg4MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ==",
+            "book": "https://www.caesars.com/book/?arrivalDate=09/29/2023&departureDate=10/01/2023&propCode=blv&rd=GlobalBooker_horseshoe-las-vegas_CLOSED_BOOKNOW"
+        },
+
+        {
+            "id": 16,
+            "title": "ARIA Resort & Casino",
+            "price": "$$$",
+            "rooms": "4,004 guest rooms",
+            "image": "./hotels/ARIA Resort & Casino.jpg",
+            "address": "3730 S Las Vegas Blvd, Las Vegas, NV",
+            "description": "Aria Las Vegas stands as a modern marvel amidst the iconic Las Vegas skyline, a luxurious resort and casino that embodies sophistication and innovation. With its sleek architectural design, Aria offers a refined oasis on the famous Strip, featuring a blend of contemporary elegance and cutting-edge technology. Boasting a vast array of upscale accommodations, world-class dining options curated by renowned chefs, a state-of-the-art casino, and captivating entertainment venues, Aria caters to the desires of discerning travelers seeking an immersive and opulent Las Vegas experience.",
+            "webAddress": "https://aria.mgmresorts.com/en.html?ecid=GMB_AR_HO",
+            "book": "https://aria.mgmresorts.com/book-room?resort=e2704b04-d515-45b0-8afd-4fa1424ff0a8&region=las-vegas"
+        },
+
+        {
+            "id": 17,
+            "title": "The Mirage",
+            "price": "$$$",
+            "rooms": "3,044 guest rooms",
+            "image": "./hotels/The Mirage.jpg",
+            "address": "3400 S Las Vegas Blvd, Las Vegas, NV",
+            "description": "The Mirage Las Vegas stands as an iconic and enchanting destination on the renowned Las Vegas Strip. With its distinctive golden glass exterior and erupting volcano display, The Mirage captures the essence of excitement and luxury that defines the city. Boasting an array of world-class amenities, including an expansive casino, exquisite dining options, captivating entertainment such as the famous Cirque du Soleil show 'LOVE', and a lush tropical oasis housing the renowned Secret Garden and Dolphin Habitat.",
+            "webAddress": "https://www.hardrockhotelcasinolasvegas.com/",
+            "book": "https://reservations.hardrockhotelcasinolasvegas.com/ibe/index.aspx?propertyID=17189&checkin=08/29/2023&checkout=08/30/2023&Nights=1&children=0&adults=2"
+        },
+
+        {
+            "id": 18,
+            "title": "Circus Circus Hotel",
+            "price": "$$",
+            "rooms": "3,767 guest rooms",
+            "image": "./hotels/Circus Circus Hotel.jpg",
+            "address": "2880 S Las Vegas Blvd, Las Vegas, NV",
+            "description": "Circus Circus Las Vegas is a renowned and iconic hotel and casino located on the famous Las Vegas Strip. With its vibrant and whimsical circus theme, the resort offers a unique and family-friendly atmosphere that sets it apart from the city's more adult-oriented offerings. The centerpiece of Circus Circus is its impressive indoor amusement park, Adventuredome, featuring a variety of thrilling rides and attractions that cater to visitors of all ages. ",
+            "webAddress": "https://www.circuscircus.com/",
+            "book": "https://reservations.circuscircus.com/room-search-results?propertyId=83010&checkInDate=08-29-2023&checkOutDate=09-01-2023"
+        },
+
+        {
+            "id": 19,
+            "title": "The STRAT Hotel, Casino & Tower",
+            "price": "$$$",
+            "rooms": "2,427 guest rooms",
+            "image": "./hotels/The STRAT Hotel, Casino & Tower.jpg",
+            "address": "2000 Las Vegas Blvd S, Las Vegas, NV",
+            "description": "The STRAT Hotel, Casino & SkyPod, located in Las Vegas, is an iconic and distinctive destination that offers a unique blend of entertainment, hospitality, and stunning views. Featuring a towering 1,149-foot observation tower, known as the SkyPod, the resort boasts unparalleled panoramic vistas of the Las Vegas Strip and surrounding desert landscape.",
+            "webAddress": "https://thestrat.com/?utm_source=gmb&utm_medium=yext",
+            "book": "https://reservations.thestrat.com/?Rooms=1&Adults=2&CheckinDate=2023-08-29&LOS=1"
+        },
+
+        {
+            "id": 20,
+            "title": "Trump International Hotel Las Vegas",
+            "price": "$$$",
+            "rooms": "1,282 guest rooms",
+            "image": "./hotels/Trump International Hotel Las Vegas.jpg",
+            "address": "2000 Fashion Show Dr, Las Vegas, NV",
+            "description": "Trump International Hotel Las Vegas is a luxurious and iconic destination nestled within the vibrant heart of the renowned Las Vegas Strip. Offering an unparalleled blend of sophistication and extravagance, the hotel presents guests with a distinctive experience characterized by opulent suites featuring sweeping views of the city's glittering skyline.  ",
+            "webAddress": "https://www.trumphotels.com/las-vegas",
+            "book": "https://be.synxis.com/?adult=1&arrive=2023-09-06&chain=12157&child=0&currency=USD&depart=2023-09-13&hotel=51546&level=hotel&locale=en-US&room-adult=1&room-child=0&rooms=1&whereto=Trump%20Las%20Vegas"
+        },
+
+        {
+            "id": 21,
+            "title": "Treasure Island",
+            "price": "$$",
+            "rooms": "2,885 guest rooms",
+            "image": "./hotels/Treasure Island.jpg",
+            "address": "3300 Las Vegas Blvd S, Las Vegas, NV",
+            "description": "With its distinctive pirate-themed architecture and lively atmosphere, Treasure Island offers an unforgettable experience for visitors seeking entertainment, gaming, and relaxation. The resort features a wide array of amenities, including an expansive casino floor, world-class restaurants, captivating live performances, and a bustling nightlife scene. Its unique Sirens of TI show, complete with swashbuckling performances and pyrotechnics, adds to the allure of this destination.",
+            "webAddress": "https://treasureisland.com/",
+            "book": "https://book.rguest.com/onecart/wbe/calendar/1293/treasureisland/TIEDW"
         }
     ]
 }

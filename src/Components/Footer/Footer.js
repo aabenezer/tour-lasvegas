@@ -6,13 +6,20 @@ import 'font-awesome/css/font-awesome.css';
 
 
 const Footer = () => {
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    }
+
     return (
         <div className='footer'>
             <div className='footer-sections'>
                 <div className='footer-sections-1'>
                     <div className='footer-logo'>
                         <Link to='/'>
-                            <img src={logo} alt='nucamp logo' className='logo-image img-fluid' />
+                            <img src={logo} alt='nucamp logo' onClick={scrollToTop} className='logo-image img-fluid' />
                         </Link>
                         <h3 className='logo'>Tour Las Vegas</h3>
                         
@@ -25,19 +32,19 @@ const Footer = () => {
                     
                         <h4 className='footer-title'>Navigation Links</h4>
                         <ul className='footer-links-lists' >
-                            <Link className='link' to='HotelsCasinos'>
+                                <Link className='link' onClick={scrollToTop}  to='HotelsCasinos'>
 
                                 Hotels & Casinos
                             </Link>
-                            <Link className='link' to='BestRestaurants'>
+                                <Link className='link' onClick={scrollToTop} to='BestRestaurants'>
 
                                 Best Restaurants
                             </Link>
-                            <Link className='link' to='AboutVegas'>
+                                <Link className='link' onClick={scrollToTop} to='AboutVegas'>
 
                                 About Vegas
                             </Link>
-                            <Link className='link' to='ContactUs'>
+                                <Link className='link' onClick={scrollToTop} to='ContactUs'>
 
                                 Contact Us
                             </Link>

@@ -94,7 +94,7 @@ object-fit: cover;
 
 @media screen and (max-width: 1500px) {
     .hero-text {
-        top: 50%;
+        top: 65%;
         left: 17%;
         padding: 40px 50px;
     }
@@ -122,7 +122,7 @@ object-fit: cover;
 
 @media screen and (max-width: 1300px) {
     .hero-text {
-        top: 50%;
+        top: 60%;
         left: 15%;
         padding: 30px 40px;
     }
@@ -150,7 +150,7 @@ object-fit: cover;
 
 @media screen and (max-width: 1200px) {
     .hero-text {
-        top: 45%;
+        top: 55%;
         left: 18%;
         padding: 20px 40px;
     }
@@ -179,7 +179,7 @@ object-fit: cover;
 
 @media screen and (max-width: 1000px) {
 .hero-text {
-        top: 35%;
+        top: 50%;
         left: 18%;
         padding: 20px 35px;
     }
@@ -207,7 +207,7 @@ object-fit: cover;
 
 @media screen and (max-width: 840px) {
 .hero-text {
-        top: 35%;
+        top: 45%;
         left: 20%;
         padding: 15px 25px;
     }
@@ -236,7 +236,7 @@ object-fit: cover;
 @media screen and (max-width: 700px) {
   
 .hero-text {
-        top: 30%;
+        top: 40%;
         left: 20%;
         padding: 15px 25px;
     }
@@ -265,7 +265,7 @@ object-fit: cover;
 
 @media screen and (max-width: 600px) {
 .hero-text {
-        top: 25%;
+        top: 35%;
         left: 20%;
         padding: 15px 25px;
     }

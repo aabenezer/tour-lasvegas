@@ -2,24 +2,56 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-image:url(../../assets/img/las\ vegas\ wide\ 2.jpg); */
+   
 }
 
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.main-text {
+   
+    margin: 15px 0px;
+    text-align: start;
+    
+}
 .container {
     display: flex;
-    flex-direction: row;
-    /* max-width: 90%; */
+    flex-direction: column;
+   
     justify-content: center;
 
     align-items: center;
     margin: 80px;
 
 }
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
 
 
 
 .container-content {
     margin: 30px;
+    
 
+
+}
+
+.form-image {
+ 
+ width: 80%;
+ 
+    object-fit: cover;
+    overflow: hidden;
 
 }
 .text-danger {
@@ -31,21 +63,22 @@ padding: 5px;
 
 .form-control {
     padding: 15px;
-    width: 500px;
+    width: 800px;
     border-radius: 5px;
-    border: none;
+    border: #743838 solid 1px;
 
 }
 
 .form-main {
-    background-color: rgb(36, 36, 35);
+    background-color: rgb(255, 255, 255);
     padding: 40px;
     border-radius: 5px;
+   
 }
 
 .form-label {
     display: flex;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -53,7 +86,7 @@ padding: 5px;
 .contact-button {
     padding: 12px 24px;
     font-size: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     background-color: #e0b87c;
     border: none;
@@ -66,4 +99,30 @@ padding: 5px;
 Button:hover {
     background-color: #c19b63;
 
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+        /* Stack elements vertically */
+        align-items: center;
+        margin: 40px;
+        /* Adjust margins for smaller screens */
+    }
+
+    .form-control {
+        width: 100%;
+        /* Make the form controls take full width */
+    }
+
+    .form-main {
+        padding: 20px;
+    }
+
+    .form-image {
+        width: 100%;
+    }
 }

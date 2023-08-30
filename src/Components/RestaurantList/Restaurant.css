@@ -92,3 +92,29 @@
     margin-bottom: 30px;
 
 }
+
+.search-filters input {
+    padding: 10px 30px;
+
+
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+        justify-content: center;
+}
+.search-icon {
+    margin: 10px;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.search-filters {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 40px;
+
+}
