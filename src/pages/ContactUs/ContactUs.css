@@ -7,16 +7,27 @@
 }
 
 .main-cont {
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
     
+    
+    
 }
 .main-text {
-   
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
     margin: 15px 0px;
     text-align: start;
+    font-size: 45px;
+        margin: 30px 0px;
+        color: #743838;
     
+}
+
+.main-text-one {
+    color: #f4a630;
 }
 .container {
     display: flex;
@@ -55,7 +66,7 @@
 
 }
 .text-danger {
-    color: #e0b87c;
+    color: #c39859;
     margin: 0px;
 padding: 5px;
 

@@ -25,8 +25,8 @@ const ContactUs = () => {
                 </div>
                 
                 <div className='form-main'>
-                    <h1 className='main-text'>Get In Touch <br />
-                        We’d love to hear from you.</h1>
+                    <h1 className='main-text'>Get In Touch, <br /> <span className='main-text-one'>We’d love to hear from you.</span>
+                        </h1>
                     <Formik
 
                         initialValues={{

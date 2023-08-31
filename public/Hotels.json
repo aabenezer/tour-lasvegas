@@ -239,18 +239,8 @@
             "description": "Trump International Hotel Las Vegas is a luxurious and iconic destination nestled within the vibrant heart of the renowned Las Vegas Strip. Offering an unparalleled blend of sophistication and extravagance, the hotel presents guests with a distinctive experience characterized by opulent suites featuring sweeping views of the city's glittering skyline.  ",
             "webAddress": "https://www.trumphotels.com/las-vegas",
             "book": "https://be.synxis.com/?adult=1&arrive=2023-09-06&chain=12157&child=0&currency=USD&depart=2023-09-13&hotel=51546&level=hotel&locale=en-US&room-adult=1&room-child=0&rooms=1&whereto=Trump%20Las%20Vegas"
-        },
-
-        {
-            "id": 21,
-            "title": "Treasure Island",
-            "price": "$$",
-            "rooms": "2,885 guest rooms",
-            "image": "./hotels/Treasure Island.jpg",
-            "address": "3300 Las Vegas Blvd S, Las Vegas, NV",
-            "description": "With its distinctive pirate-themed architecture and lively atmosphere, Treasure Island offers an unforgettable experience for visitors seeking entertainment, gaming, and relaxation. The resort features a wide array of amenities, including an expansive casino floor, world-class restaurants, captivating live performances, and a bustling nightlife scene. Its unique Sirens of TI show, complete with swashbuckling performances and pyrotechnics, adds to the allure of this destination.",
-            "webAddress": "https://treasureisland.com/",
-            "book": "https://book.rguest.com/onecart/wbe/calendar/1293/treasureisland/TIEDW"
         }
+
+       
     ]
 }

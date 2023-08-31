@@ -1,9 +1,7 @@
 import React from 'react';
-import vegaswide from '../../assets/img/las vegas wide 8.jpg';
+import vegaswide from '../../assets/img/las vegas wide 7.jpg';
 import './HeroSection.css';
 import { Link } from 'react-router-dom';
-import ab from '../../pages/HotelsCasinos/HotelsCasinos';
-import HotelsCasinos from '../../pages/HotelsCasinos/HotelsCasinos';
 
 const HeroSection = () => {
     return (
@@ -16,16 +14,11 @@ const HeroSection = () => {
                         known for its vibrant nightlife, extravagant casinos with
                         a larger-than-life reputation as the entertainment
                         capital of the world.</p>
-                    <button className='hero-button'>
-                        <Link to='/HotelsCasinos' className='hero-button'>Explore</Link>
-                    </button>
+                    <div>
+                        <Link to='/HotelsCasinos' className='btn'>Explore</Link>
+                    </div>
                 </div>
-
-
             </div>
-
-
-
         </div>
     )
 }

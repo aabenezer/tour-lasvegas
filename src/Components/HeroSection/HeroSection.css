@@ -5,8 +5,9 @@
 }
 
 .hero-container {
-object-fit: cover;
-   
+
+    object-fit: cover;
+
     width: 100%;
     overflow: hidden;
 }
@@ -15,18 +16,19 @@ object-fit: cover;
     position: absolute;
 
     top: 60%;
-        left: 10%;
-        transform: translate(-20%, -50%);
+    left: 10%;
+    transform: translate(-20%, -50%);
     text-align: left;
-    
-    background-color: rgba(0, 0, 0, 0.7);
+
+    background-color: rgba(0, 0, 0, 0.8);
     border-left: 10px solid #c5ad79;
     padding: 40px;
-    
-    
+
+
 }
+
 .hero-image {
-   position: relative; 
+    position: relative;
     width: 100%;
     object-fit: cover;
     overflow: hidden;
@@ -36,6 +38,7 @@ object-fit: cover;
     font-size: 50px;
     color: white;
     margin-bottom: 20px;
+    
 }
 
 .hero-text p {
@@ -45,17 +48,20 @@ object-fit: cover;
     margin: 0 auto 20px;
 }
 
-.hero-button {
-    padding: 12px 30px;
+
+.btn {
+    padding: 5px 30px;
     font-size: 20px;
     color: rgb(0, 0, 0);
     text-decoration: none;
-   background-color: #c5ad79;
+    background-color: #c5ad79;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+
 }
+
 
 .hero-button:hover {
     background-color: #f9db99;
@@ -65,20 +71,21 @@ object-fit: cover;
 
 @media screen and (max-width: 1800px) {
     .hero-text {
-        top: 70%;
+        top: 62%;
         left: 15%;
         padding: 30px 40px;
     }
 
 
     .hero-text h2 {
+        font-family: 'Oswald', sans-serif;
         font-size: 65px;
         color: white;
         margin-bottom: 10px;
     }
 
     .hero-text p {
-       
+
         font-size: 22px;
         color: white;
         max-width: 800px;
@@ -94,7 +101,7 @@ object-fit: cover;
 
 @media screen and (max-width: 1500px) {
     .hero-text {
-        top: 65%;
+        top: 60%;
         left: 17%;
         padding: 40px 50px;
     }
@@ -122,7 +129,7 @@ object-fit: cover;
 
 @media screen and (max-width: 1300px) {
     .hero-text {
-        top: 60%;
+        top: 55%;
         left: 15%;
         padding: 30px 40px;
     }
@@ -150,7 +157,7 @@ object-fit: cover;
 
 @media screen and (max-width: 1200px) {
     .hero-text {
-        top: 55%;
+        top: 50%;
         left: 18%;
         padding: 20px 40px;
     }
@@ -178,8 +185,8 @@ object-fit: cover;
 
 
 @media screen and (max-width: 1000px) {
-.hero-text {
-        top: 50%;
+    .hero-text {
+        top: 44%;
         left: 18%;
         padding: 20px 35px;
     }
@@ -206,8 +213,8 @@ object-fit: cover;
 }
 
 @media screen and (max-width: 840px) {
-.hero-text {
-        top: 45%;
+    .hero-text {
+        top: 36%;
         left: 20%;
         padding: 15px 25px;
     }
@@ -234,9 +241,9 @@ object-fit: cover;
 }
 
 @media screen and (max-width: 700px) {
-  
-.hero-text {
-        top: 40%;
+
+    .hero-text {
+        top: 33%;
         left: 20%;
         padding: 15px 25px;
     }
@@ -264,12 +271,12 @@ object-fit: cover;
 
 
 @media screen and (max-width: 600px) {
-.hero-text {
-        top: 35%;
+    .hero-text {
+        top: 28%;
         left: 20%;
         padding: 15px 25px;
     }
- 
+
 
     .hero-text h2 {
         font-size: 20px;
@@ -283,7 +290,7 @@ object-fit: cover;
         max-width: 300px;
         margin: 0 auto 3px;
     }
-    
+
 
     .hero-button {
         padding: 8px 10px;

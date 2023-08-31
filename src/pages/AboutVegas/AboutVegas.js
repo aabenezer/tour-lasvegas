@@ -3,6 +3,7 @@ import ImgCarousel from '../../Components/ImgCarousel/ImgCarousel';
 import { CarouselData } from '../../Components/ImgCarousel/CarouselData';
 import './AboutVegas.css';
 import 'font-awesome/css/font-awesome.css';
+import VegasMap from '../../Components/VegasMap/VegasMap';
 // import Example from '../../Components/ImgCarousel/Example';
 import {
     Card, CardBody,
@@ -21,7 +22,7 @@ const AboutVegas = () => {
 
         <div className='text'>
 
-            <h2 className='text-title'><span>Las Vegas: </span>where the neon lights never fade, and the fun never ends.</h2>
+            <h2 className='text-title'><span className='text-title-one'>Las Vegas: </span>where the neon lights never fade, and the fun never ends.</h2>
             <div className='description'>
                 <div className=''>
                     <p>Las Vegas, known as the "Entertainment Capital of the World," has a rich history that dates back to the early 1900s. Originally a small railway stopover, the city started to grow when the construction of the Hoover Dam began in 1931, attracting workers and visitors. The legalization of gambling in 1931 also contributed to the city's rapid expansion, making Las Vegas a destination for those seeking entertainment and fortune. The 1950s saw the rise of luxurious resorts and iconic landmarks such as the Flamingo, Sands, and Stardust, solidifying Las Vegas' reputation as a playground for the rich and famous.
@@ -96,6 +97,7 @@ const AboutVegas = () => {
                 </Card>
             </div>
         </div>
+            <VegasMap />
     </div>
        
 
