@@ -20,7 +20,7 @@
     transform: translate(-20%, -50%);
     text-align: left;
 
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
     border-left: 10px solid #c5ad79;
     padding: 40px;
 
@@ -35,7 +35,8 @@
 }
 
 .hero-text h2 {
-    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
     color: white;
     margin-bottom: 20px;
     

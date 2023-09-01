@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/img/vegas logo white.png';
+import logo from '../../assets/img/vegas logo color.png';
 import 'font-awesome/css/font-awesome.css';
 
 

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 90px 20px;
+    margin: 270px 20px;
 }
 
 .quote-details {
@@ -65,4 +65,12 @@ color: #743838;
 
 .dot.active {
     background-color: #743838;
+}
+
+@media (max-width: 1200px) {
+
+.quote-container {
+        
+        margin: 100px 20px;
+    }
 }

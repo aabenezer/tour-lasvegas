@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import logo from '../../assets/img/vegas logo white.png';
+import logo from '../../assets/img/vegas logo color.png';
 import 'font-awesome/css/font-awesome.css';
 import { FaUtensils, FaHotel, FaInfoCircle, FaPaperPlane } from "react-icons/fa";
 
@@ -15,7 +15,7 @@ const Header = () => {
     return (
         <nav className={`navbar ${showMenu ? 'show' : ''}`}>
             <Link to='/'>
-                <img src={logo} alt='tour-lasvegas-logo' className='logo-image img-fluid' />
+                <img src={logo} alt='tour-lasvegas-logo' className='logo-image' />
             </Link>
             <h2 className='logo'>Tour Las Vegas</h2>
 

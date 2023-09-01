@@ -1,5 +1,5 @@
 import React from 'react';
-import vegaswide from '../../assets/img/las vegas wide 7.jpg';
+import vegaswide from '../../assets/img/las vegas wide 6.jpg';
 import './HeroSection.css';
 import { Link } from 'react-router-dom';
 

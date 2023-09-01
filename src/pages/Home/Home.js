@@ -10,6 +10,8 @@ import ent from '../../assets/img/Entertainment.jpg';
 import night from '../../assets/img/Nightlife.jpg';
 import attraction from '../../assets/img/Attraction.jpg';
 import dining from '../../assets/img/Dining.jpg';
+import banner from '../../assets/img/banner.jpg'; 
+
 
 const Home = () => {
     return (
@@ -82,6 +84,12 @@ const Home = () => {
                 </div>
 
             <Quote/>
+
+            <div>
+
+                <img className='banner-image' src={banner} alt="My Image" />
+            </div>
+           
             </div>
       
 

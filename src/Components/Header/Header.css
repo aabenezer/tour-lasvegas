@@ -46,20 +46,18 @@
 }
 
 .logo-image {
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     margin: 10px 30px;
 }
 
 .logo {
     font-family: 'Borel', cursive;
     margin-right: auto;
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 15px;
-    font-size: 72px;
-    font-weight: bolder;
-    background-color: #f3ec78;
-    background-image: linear-gradient(45deg, #f3ce78, #f0a86d);
+    font-weight: bold;
+    background-image: linear-gradient(45deg, #f4d896, #de8237);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
