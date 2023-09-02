@@ -1,4 +1,4 @@
-![3](https://github.com/aabenezer/tour-lasvegas/assets/122594088/790bb87b-0a2d-4a9f-96df-ba7f45560f23)
+
 
 # Getting Started with Create React App
 
