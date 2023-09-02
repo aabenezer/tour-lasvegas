@@ -1,11 +1,10 @@
 .cards-container {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 .restaurant-card {
-
     width: 400px;
     background-color: rgb(252, 252, 252);
     border-radius: 10px;
@@ -15,19 +14,24 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.5s;
 }
+
 .restaurant-rating {
     color: rgb(255, 153, 0);
 }
 
 .restaurant-card:hover {
     transform: translateY(-15px);
-
 }
 
 .restaurant-text-info {
     font-weight: bold;
     color: #743838;
     font-size: 15px;
+}
+
+input {
+    border-width: 1px;
+    border-radius: 15px;
 }
 
 .restaurant-img {
@@ -37,21 +41,18 @@
 .restaurant-list {
     display: flex;
     flex-wrap: wrap;
-
     gap: 30px;
     justify-content: space-around;
-
 }
 
 
 .restaurant-card {
     flex: 1 1 calc(33.33% - 20px);
-
 }
+
 .inline-container {
     display: flex;
-        /* or display: grid; */
-        gap: 10px;
+    gap: 10px;
 }
 
 
@@ -63,8 +64,6 @@
     border-radius: 50px;
     padding: 10px 30px;
     margin: 10px 75px;
-   
-    
 }
 
 .restaurant-text {
@@ -80,6 +79,7 @@
     color: #743838;
     margin: 5px 0px;
 }
+
 .restaurant-rating {
     margin-bottom: 10px;
 }
@@ -91,20 +91,18 @@
 
 .restaurant-address {
     margin-bottom: 30px;
-
 }
 
 .search-filters input {
-    padding: 10px 30px;
-
-
+    padding: 15px 30px;
 }
 
 .search-input {
     display: flex;
     align-items: center;
-        justify-content: center;
+    justify-content: center;
 }
+
 .search-icon {
     margin: 10px;
     font-weight: lighter;
@@ -117,5 +115,4 @@
     display: flex;
     justify-content: flex-start;
     margin: 10px 40px;
-
 }

@@ -6,7 +6,7 @@ const NewsletterTab = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        
+
         console.log(`Subscribed with email: ${email}`);
         setEmail('');
     };
@@ -22,15 +22,11 @@ const NewsletterTab = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
-                    
                 />
                 <div>
-                  
                     <button className='newsletter-button' type="submit">Subscribe</button>
                 </div>
-                
             </form>
-            
         </div>
     );
 };

@@ -5,7 +5,6 @@ import { FiSearch } from 'react-icons/fi';
 
 const HotelsCasinos = () => {
     const [jsonData, setJsonData] = useState(null);
-    const [selectedPriceRange, setSelectedPriceRange] = useState('');
     const [searchName, setSearchName] = useState('');
 
     useEffect(() => {

@@ -59,6 +59,7 @@
     font-weight: bold;
     background-image: linear-gradient(45deg, #f4d896, #de8237);
     background-size: 100%;
+    background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -73,14 +74,11 @@
     display: flex;
     list-style: none;
     z-index: 1000;
-
 }
 
 .menu-items a:hover {
     color: #c5ad79;
     border-color: #c5ad79;
-
-
 }
 
 

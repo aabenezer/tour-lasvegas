@@ -6,8 +6,7 @@ import { FiSearch } from 'react-icons/fi';
 const RestaurantsList = () => {
     const [jsonData, setJsonData] = useState(null);
     const [searchTerm, setSearchTerm] = useState('');
-    const [minRating, setMinRating] = useState(0);
-    const [restaurantType, setRestaurantType] = useState('');
+    
 
     useEffect(() => {
 
@@ -21,9 +20,7 @@ const RestaurantsList = () => {
     const filteredRestaurants = jsonData
         ? jsonData.Restaurants.filter(
             restaurant =>
-                restaurant.title.toLowerCase().includes(searchTerm.toLowerCase()) &&
-                restaurant.rating >= minRating &&
-                (restaurantType === '' || restaurant.type === restaurantType)
+                restaurant.title.toLowerCase().includes(searchTerm.toLowerCase()) 
         )
         : [];
 
@@ -39,7 +36,7 @@ const RestaurantsList = () => {
                         onChange={e => setSearchTerm(e.target.value)}
                     />
                 </div>
-                
+
             </div>
 
             <div className="restaurant-list">

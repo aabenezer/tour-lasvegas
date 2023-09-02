@@ -30,7 +30,6 @@
     z-index: 10;
     cursor: pointer;
     user-select: none;
-
 }
 
 .left-arrow {
@@ -42,7 +41,6 @@
     z-index: 10;
     cursor: pointer;
     user-select: none;
-
 }
 
 .slide {
@@ -59,12 +57,10 @@
 @media (max-width: 768px) {
     .right-arrow {
         right: 20px;
-
     }
 
     .left-arrow {
         left: 20px;
-
     }
 
     .slider {
@@ -80,7 +76,6 @@
 @media (max-width: 1480px) {
     .right-arrow {
         right: 20px;
-
     }
 
     .left-arrow {
@@ -88,32 +83,24 @@
     }
 
     .slider {
-
         height: 80vh;
-
     }
 }
 
 @media (max-width: 600px) {
     .slider {
-
         height: 20vh;
-
     }
 }
 
 @media (max-width: 800px) {
     .slider {
-
         height: 70vh;
-
     }
 }
 
 @media (max-width: 900px) {
     .slider {
-
         height: 40vh;
-
     }
 }

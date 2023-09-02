@@ -10,7 +10,6 @@ const RestaurantCard = ({ restaurant }) => {
         const maxRating = 5;
         const fullStars = Math.floor(rating);
         const halfStar = rating - fullStars >= 0.5;
-
         const starArray = [];
 
         for (let i = 0; i < fullStars; i++) {
@@ -34,13 +33,13 @@ const RestaurantCard = ({ restaurant }) => {
                 <img className='restaurant-img' src={restaurant.image} alt={restaurant.title} />
                 <div className='restaurant-text'>
                     <h2 className='restaurant-title'>{restaurant.title}</h2>
-                    <p className='restaurant-desc'>{restaurant.description}</p> 
+                    <p className='restaurant-desc'>{restaurant.description}</p>
                     <div className='restaurant-rating'>{renderStars(restaurant.rating)}</div>
                     <div className='inline-container'>
-                        <p className='restaurant-price restaurant-text-info'><FaMoneyBillWave className='side-icons' /> {restaurant.price}</p>&nbsp;  |  &nbsp;      
+                        <p className='restaurant-price restaurant-text-info'><FaMoneyBillWave className='side-icons' /> {restaurant.price}</p>&nbsp;  |  &nbsp;
                         <p className='restaurant-type restaurant-text-info'><FaUtensils className='side-icons' /> {restaurant.type}</p>
                     </div>
-                    
+
                     <p className='restaurant-address restaurant-text-info'><FaMapMarkerAlt className='side-icons' /> {restaurant.address}</p>
                     <a className='restaurant-link' href={restaurant.book} target="_blank" rel="noopener noreferrer">Reserve a table</a>
                 </div>

@@ -7,7 +7,7 @@ const HeroSection = () => {
     return (
         <div className='hero-container'>
             <div>
-                <img src={vegaswide} alt='lasvegas-image' className='hero-image' />
+                <img src={vegaswide} alt='lasvegas at night' className='hero-image' />
                 <div className='hero-text'>
                     <h2>The City that Never Sleeps</h2>
                     <p>Las Vegas is a dazzling desert oasis that never sleeps,

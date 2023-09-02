@@ -32,7 +32,7 @@ const ImgCarousel = ({ slides }) => {
                     key={index}
                 >
                     {index === active && (
-                        <img src={slide.image} alt='travel image' className='image' />
+                        <img src={slide.image} alt='old vegas photos' className='image' />
                     )}
                 </div>
             ))}

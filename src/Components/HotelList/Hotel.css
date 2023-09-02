@@ -20,7 +20,6 @@
 
 .hotel-card:hover {
     transform: translateY(-15px);
-
 }
 
 .hotel-img {
@@ -30,10 +29,8 @@
 .hotel-list {
     display: flex;
     flex-wrap: wrap;
-
     gap: 30px;
     justify-content: space-around;
-
 }
 
 
@@ -86,27 +83,24 @@
 
 .hotel-address {
     margin-bottom: 30px;
+}
 
 
+input {
+    border-width: 1px;
+    border-radius: 15px;
 }
 
 .search-filter input {
     padding: 10px 30px;
-
-
-
 }
 
 .search-filter {
     display: flex;
     justify-content: flex-start;
-    margin: 10px 40px;
-
+    margin: 10px 30px;
 }
 
 .search-icon {
-
-
-
     color: #cc9d37;
 }

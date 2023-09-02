@@ -18,10 +18,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-.hotel-main-text {
- 
-text-align: justify;
-}
-
-
+    .hotel-main-text {
+        text-align: justify;
+    }
 }

@@ -1,6 +1,6 @@
 .newsletter-tab {
-max-width: 100%;
-    margin: 50px  0px;
+    max-width: 100%;
+    margin: 50px 0px;
     justify-content: center;
     align-items: center;
 }
@@ -41,22 +41,17 @@ max-width: 100%;
 
 .newsletter-button:hover {
     background-color: #c19b63;
-
 }
 
 
 @media screen and (max-width: 1200px) {
-
     .newsletter-space {
-            width: 80%;
-            padding: 10px;
-            border: #743838 solid 1px;
-        }
-
-.newsletter-tab {
         width: 80%;
-        
+        padding: 10px;
+        border: #743838 solid 1px;
     }
 
-        
+    .newsletter-tab {
+        width: 80%;
+    }
 }

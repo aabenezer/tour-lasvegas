@@ -3,7 +3,7 @@ import { Formik, Field, Form, ErrorMessage } from 'formik';
 import './ContactUs.css';
 import { validateForm } from '../../utilities/vallidateForm';
 import NewsletterTab from '../../Components/NewsLetter/NewsLetter';
-import myImage from '../../assets/img/f1.jpg'; 
+import myImage from '../../assets/img/f1.jpg';
 
 
 
@@ -17,16 +17,14 @@ const ContactUs = () => {
 
     return (
         <div className='main-cont'>
-            
             <div className='container'>
                 <div>
-
-                    <img className='form-image' src={myImage} alt="My Image" />
+                    <img className='form-image' src={myImage} alt="fl las vegas promo" />
                 </div>
-                
+
                 <div className='form-main'>
                     <h1 className='main-text'>Get In Touch, <br /> <span className='main-text-one'>We’d love to hear from you.</span>
-                        </h1>
+                    </h1>
                     <Formik
 
                         initialValues={{
@@ -51,11 +49,8 @@ const ContactUs = () => {
                                     className='form-control'
                                 />
                                 <ErrorMessage name='firstName' >
-
                                     {(msg) => <p className=' text-danger'  >{msg}</p>}
                                 </ErrorMessage>
-
-
                             </FormGroup>
 
 
@@ -111,10 +106,6 @@ const ContactUs = () => {
 
 
 
-                            
-
-
-
                             <FormGroup row>
                                 <Label htmlFor='feedback' className='form-label'>
                                     Your Feedback
@@ -136,16 +127,15 @@ const ContactUs = () => {
                                         Send Feedback
                                     </Button>
                                 </Col>
-
                             </FormGroup>
                         </Form>
                     </Formik>
                 </div>
             </div>
-                <div className='newsletter'>
-                    <NewsletterTab />
-                </div>
-            
+            <div className='newsletter'>
+                <NewsletterTab />
+            </div>
+
         </div>
     )
 }
